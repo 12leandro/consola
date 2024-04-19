@@ -1,4 +1,7 @@
 async function run() {
+  const { verificarYCrearArchivo } = await import('./verificarCrear');
+  const { gestionUsuarios } = await import('./gestionUsuarios');
+  const { gestionGastos } = await import('./gestionGastos');
   const chalk = await import('chalk');
   const inquirer = await import('inquirer');
 
