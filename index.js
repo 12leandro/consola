@@ -1,6 +1,3 @@
-import { gestionGastos } from './gestionGastos';
-import { gestionUsuarios } from './gestionUsuarios';
-import { verificarYCrearArchivo } from './verificarCrear';
 async function run() {
   const chalk = await import('chalk');
   const inquirer = await import('inquirer');
